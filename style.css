@@ -25,13 +25,34 @@ h1 {
   margin-top: 10px;
 }
 
+.intro {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 15px;
+  color: #e0d5f9;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2em;
+  color: #d4a6ff;
+  border-bottom: 2px solid #c0c0c0;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
-  padding: 40px;
-  background-color: #1a1a1a;
 }
 
 .gallery img {
@@ -45,6 +66,21 @@ h1 {
 
 .gallery img:hover {
   transform: scale(1.05);
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.videos video {
+  width: 320px;
+  height: auto;
+  border: 3px solid #999999;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #aaa;
 }
 
 footer {
