@@ -91,3 +91,26 @@ footer {
   font-style: italic;
   border-top: 2px solid #c0c0c0;
 }
+.music-controls {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.music-controls button {
+  background: linear-gradient(to right, #6a0dad, #8a2be2);
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1em;
+  font-weight: bold;
+  box-shadow: 0 0 10px #b366ff;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.music-controls button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #7b1fa2, #9b30ff);
+}
