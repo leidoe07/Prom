@@ -7,6 +7,17 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Background Music Player -->
+  <div style="text-align: center; padding: 1rem;">
+    <button onclick="document.getElementById('bg-music').play()">▶️ Play Background Music</button>
+    <button onclick="document.getElementById('bg-music').pause()">⏸️ Pause</button>
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="music\0520.mp4" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <header>
     <h1>Leilani’s Prom Night</h1>
     <p class="subtitle">A Night in Black, Purple & Silver</p>
